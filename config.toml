@@ -1,5 +1,5 @@
 
-baseURL = "https://lrau.systems"
+baseURL = "/"
 title   = "localleon"
 
 DefaultContentLanguage = "en"
@@ -39,7 +39,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "localleon"
+  name = "localleon©"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -83,10 +83,6 @@ disableHugoGeneratorInject = false
     logoHomeLink = "/"
 
   # Social icons
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/"
-
   [[params.social]]
     name = "email"
     url  = "mailto:me@lrau.systems"
