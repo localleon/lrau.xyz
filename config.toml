@@ -1,29 +1,19 @@
-
 baseURL = "/"
-title   = "localleon"
+title   = "Leon"
 
 DefaultContentLanguage = "en"
-
 theme = "hello-friend-ng"
 
-PygmentsCodeFences = true
-PygmentsStyle = "monokai"
+pygmentsCodefences = false
+pygmentsUseClasses = false
 
 rssLimit  = 50  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
-# googleAnalytics = ""
-# disqusShortname = ""
-
-archetypeDir = "archetypes"
-contentDir   = "content"
-dataDir      = "data"
-layoutDir    = "layouts"
 publishDir   = "public"
 
 buildDrafts  = false
 buildFuture  = false
-buildExpored = false
 canonifyURLs = true
 
 enableRobotsTXT = true
@@ -39,15 +29,11 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "localleon©"
-
+  name = "localleon"
+  
 [blackfriday]
   hrefTargetBlank = true
-
-[taxonomies]
-  tag      = "tags"
-  category = ""
-
+  
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
@@ -56,27 +42,13 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   description = "Personal Homepage of localleon"
-  keywords = ""
+  keywords = "homepage,blog,projects"
   images = [""]
 
   homeSubtitle = "Welcome to my personal homepage"
 
-  # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  # gitUrl = ""
-
-  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
-  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
-  customCSS = []
-  customJS  = []
-
-  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
-  justifyContent = false  # Set "text-align: justify" to .content.
-
-  # Directory name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
   # Default theme "light" or "dark"
   defaultTheme = "dark"
-  themeColor = "#252627"
 
   [params.logo]
     logoText     = "$ cd /web/"
@@ -93,9 +65,14 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    subtitle  = "personal homepage"
+    subtitle  = "Homepage & Blog"
     weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">License</a>'
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+  [languages.de]
+    subtitle  = "Homepage & Blog"
+    weight    = 2
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
   [[menu.main]]
@@ -104,5 +81,9 @@ disableHugoGeneratorInject = false
     url        = "about/"
   [[menu.main]]
     identifier = "posts"
-    name       = "Posts"
+    name       = "Articles"
     url        = "posts/"
+  [[menu.main]]
+    identifier = "works"
+    name       = "Works"
+    url        = "works/"
