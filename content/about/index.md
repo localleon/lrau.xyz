@@ -6,9 +6,20 @@ author: localleon
 ---
 
 
-Hi, I am Leon
-
 {{< image src="/profilbild_klavier_round.png" alt="localleon" position="center" style="height:350px;">}}
 
 
-How about you
+Hi, I am Leon.
+
+Welcome to my little personal website. I know it's not much but it's something. 
+
+I am a student interested in software engineering, cloud architecture and general things IT. I also enjoy working on open source projects and am a big fan of 3D printing. And I love new and exciting projects. Contact me if you think I can help you.
+
+---
+
+This Website was build with [Hugo](https://gohugo.io) and the theme [hello-friend-ng](https://github.com/rhazdon/hugo-theme-hello-friend-ng). Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
+
+The static site itself is hosted in an AWS S3-Bucket. AWS Cloudfront provides the caching CDN and the SSL Termination in front of it. The SSL-Certificate is issued by Amazon.
+
+
+
