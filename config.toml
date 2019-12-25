@@ -1,5 +1,5 @@
 baseURL = "/"
-title   = "Leon"
+title   = "Leon Rauschenbach"
 
 DefaultContentLanguage = "en"
 theme = "hello-friend-ng"
@@ -41,7 +41,7 @@ disableHugoGeneratorInject = false
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Personal Homepage of localleon"
+  description = "Personal Homepage of Leon R."
   keywords = "homepage,blog,projects"
   images = [""]
 

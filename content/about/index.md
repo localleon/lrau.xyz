@@ -13,7 +13,7 @@ Hi, I am Leon.
 
 Welcome to my little personal website. I know it's not much but it's something. 
 
-I am a student interested in software engineering, cloud architecture and general things IT. I also enjoy working on open source projects and am a big fan of 3D printing. And I love new and exciting projects. Contact me if you think I can help you.
+I am a student interested in software engineering, cloud architecture and general things IT. I also enjoy working on open source projects, and I am a big fan of 3D printing. And I love new and exciting projects. Contact me if you think I can help you.
 
 ---
 
