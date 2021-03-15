@@ -6,14 +6,14 @@ author: localleon
 ---
 
 
-{{< image src="/profilbild_klavier_round.png" alt="localleon" position="center" style="height:350px;">}}
+{{< image src="/profil_far1_round.png.png" alt="localleon" position="center" style="height:350px;">}}
 
 
 Hi, I am Leon.
 
 Welcome to my little personal website. I know it's not much but it's something. 
 
-I am a student interested in software engineering, cloud architecture and general things IT. I also enjoy working on open source projects, and I am a big fan of 3D printing. And I love new and exciting projects. Contact me if you think I can help you.
+I am studying computer science at the FOM in Duesseldorf and working at Amprion. I’m interested in software engineering, cloud architecture and general things IT. I also enjoy working on open source projects, and I am a big fan of 3D printing. And I love new and exciting projects. Contact me if you think I can help you.
 
 ---
 
