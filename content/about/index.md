@@ -6,7 +6,7 @@ author: localleon
 ---
 
 
-{{< image src="/profil_far1_round.png" alt="localleon" position="center" style="height:350px;">}}
+{{< image src="/profil-pic-round.jpg" alt="localleon" position="center" style="height:350px;">}}
 
 
 Hi, I am Leon.
