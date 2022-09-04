@@ -6,20 +6,17 @@ author: localleon
 ---
 
 
-{{< image src="/profil-pic-round.jpg" alt="localleon" position="center" style="height:350px;">}}
+{{< image src="/profil-pic-round.png" alt="localleon" position="center" style="height:350px;">}}
 
 
-Hi, I am Leon.
+Hey, I am Leon. 
 
-Welcome to my little personal website. I know it's not much but it's something. 
+I study computer science at the FOM in Düsseldorf and work as a system administrator at Amprion GmbH. At my workplace I deal with Ansible, Python and Kubernetes. In my free time I love to try out the latest innovations and techniques. If you want to create an exciting project with me, feel free to contact me! 
 
-I am studying computer science at the FOM in Duesseldorf and working at Amprion. I’m interested in software engineering, cloud architecture and general things IT. I also enjoy working on open source projects, and I am a big fan of 3D printing. And I love new and exciting projects. Contact me if you think I can help you.
 
 ---
 
-This Website was build with [Hugo](https://gohugo.io) and the theme [hello-friend-ng](https://github.com/rhazdon/hugo-theme-hello-friend-ng). Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
-
-The static site itself is hosted in an AWS S3-Bucket. AWS Cloudfront provides the caching CDN and the SSL Termination in front of it. The SSL-Certificate is issued by Amazon.
+This Website was build with [Hugo](https://gohugo.io) and the theme [hello-friend-ng](https://github.com/rhazdon/hugo-theme-hello-friend-ng). The static site itself is hosted in an with AWS Cloudfront and S3.
 
 
 
