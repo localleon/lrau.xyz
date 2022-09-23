@@ -1,3 +1,3 @@
-# lrau.systems
+# lrau.xyz
 
-Git Repository for the Hugo Website "lrau.xyz" , this is my personal website
+This is the website for my personal homepage! Feel free to take a look.

@@ -4,7 +4,7 @@ date: 2022-09-23
 author: Leon
 draft: false
 toc: false
-tags: networking, dns
+tags: ["networking","dns"]
 ---
 
 In case anyone is still wondering how to set up Namecheap's DynDns service on an Ubiquiti Edgerouter-X. Here is a quick guide
