@@ -22,6 +22,7 @@ jobs:
       - name: Build Website
         run: |
           hugo --minify
+
       - name: Configure AWS credentials from Test account
         uses: aws-actions/configure-aws-credentials@v1
         with:
