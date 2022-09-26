@@ -34,7 +34,7 @@ Namecheap operates `park-your-domain.com`, it's a simple way for DynDns-Clients 
 
 ## CLI-Reference 
 
-```
+```json
 dynamic {
     interface null {
         service namecheap {
