@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://www.lrau.xyz/"
 title   = "Leon Rauschenbach"
 
 DefaultContentLanguage = "en"
