@@ -31,6 +31,7 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: eu-central-1
+          
 
       - name: Copy files to the test website with the AWS CLI
         run: |
@@ -38,4 +39,4 @@ jobs:
 
       - name: Invalidate Cloudfront Distribution Cache
         run: |
-          aws cloudfront create-invalidation --distribution-id E35M7KA9RKX114 --paths "/"
+          aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
